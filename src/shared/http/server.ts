@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import routes from './routes'
 import { apiErrorValidator } from '../middlewares/error';
+import '@shared/typeorm';
 
 const app = express();
 
